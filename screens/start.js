@@ -1,9 +1,12 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, Button, Alert } from 'react-native';
-
+//added class
 class StartScreen extends React.Component {
+  //render function
     render() {
+      //return function
       return (
+        //view container for text, button & image. Styled button inline as well and used a function to navigate between screens
         <View style={styles.container}>
           <Text style={styles.title}>Beginning!</Text>
           <Button 
@@ -17,7 +20,7 @@ class StartScreen extends React.Component {
 }
 
 export default StartScreen;
-
+// created style sheet and styles for View component
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -25,6 +28,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#f2f2f2',
   },
+  //styles for the text component
   title: {
     padding: 10,
     textDecorationLine: "underline",

@@ -1,6 +1,7 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createStackNavigator } from 'react-navigation-stack';
+//included zoomin transition between screens
 import { fromLeft, zoomIn, flipX, flipY } from 'react-navigation-transitions';
 
 import StartScreen from './screens/start';
